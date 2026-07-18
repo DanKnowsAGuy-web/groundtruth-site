@@ -133,6 +133,13 @@ a { color: inherit; }
   letter-spacing: 0.34em;
   color: var(--on-primary-muted);
 }
+.wordmark .wordmark-div {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.5rem;
+  letter-spacing: 0.16em;
+  margin-top: 3px;
+}
 
 .site-nav {
   display: flex;
@@ -603,8 +610,16 @@ a { color: inherit; }
 }
 .round-sub {
   margin-top: 1rem;
+  color: var(--on-primary);
+  max-width: 38ch;
+}
+.round-def {
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule-dark);
   color: var(--on-primary-muted);
-  max-width: 36ch;
+  font-size: 0.9375rem;
+  max-width: 42ch;
 }
 
 .round-uses { list-style: none; }
@@ -718,6 +733,13 @@ a { color: inherit; }
   font-size: 1.1rem;
   letter-spacing: 0.06em;
   margin-bottom: 0.9rem;
+}
+.footer-div {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
 }
 .footer-legal {
   font-size: 0.875rem;
